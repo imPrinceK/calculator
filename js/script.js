@@ -72,6 +72,11 @@ function myFunctionsbacks(){
     document.getElementById("math").innerHTML = ans;
 }
 
+function myFunctiondot(){
+    ans = ans.concat('.');
+    document.getElementById("math").innerHTML = ans;
+}
+
 function myFunctionsum(){
     ans = ans.concat('+');
     document.getElementById("math").innerHTML = ans;
@@ -91,4 +96,3 @@ function myFunctionExecute(){
     document.getElementById("math").innerHTML = ans.concat('='); 
     document.getElementById("display").innerHTML = eval(ans);
 }
-
