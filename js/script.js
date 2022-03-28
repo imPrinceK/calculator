@@ -1,3 +1,4 @@
+
 let ans=""
 
 function myFunction1(){
@@ -87,8 +88,7 @@ function myFunctionmul(){
 }
 
 function myFunctionExecute(){
-    ans = ans.concat('=');
-    document.getElementById("math").innerHTML = ans; 
-    document.getElementById("display").innerHTML = ans;
+    document.getElementById("math").innerHTML = ans.concat('='); 
+    document.getElementById("display").innerHTML = eval(ans);
 }
 
