@@ -1,4 +1,4 @@
-let ans=""
+let ans="";
 
 function addNum(a){
     ans = ans.concat(a);
@@ -10,14 +10,14 @@ function addOpt(b){
     document.getElementById("math").innerHTML = ans;
 }
 
-function clear(){
-    ans=""
-    document.getElementById("math").innerHTML = ans;
+function del(){
+    ans=" ";
+    document.getElementById("math").innerHTML = ans ;
     document.getElementById("display").innerHTML = "";
 }
 
 function backspace(){
-    ans=ans.slice(0, -1);;
+    ans=ans.slice(0, -1);
     document.getElementById("math").innerHTML = ans;
 }
 
