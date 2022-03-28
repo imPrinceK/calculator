@@ -12,32 +12,33 @@
 <body>
     <div class="calculator">
         <div class="display">
-            <p>data</p>
+            <p id="math"> </p>
+            <p id="display"> </p>
         </div>
         <div class="buttons">
-            <button type="reset">C</button>
-            <button type="button"><img src="images/backspace.png" alt="bs"></button>
-            <button type="button">%</button>
-            <button type="button">/</button>
+            <button onclick="myFunctionC()">C</button>
+            <button onclick="myFunctionback()"><img src="images/backspace.png" alt="bs"></button>
+            <button onclick="myFunctionmod()">%</button>
+            <button onclick="myFunctionsbacks()">/</button>
             <br>
-            <button type="button">1</button>
-            <button type="button">2</button>
-            <button type="button">3</button>
-            <button type="button">+</button>
+            <button onclick="myFunction1()">1</button>
+            <button onclick="myFunction2()">2</button>
+            <button onclick="myFunction3()">3</button>
+            <button onclick="myFunctionsum()">+</button>
             <br>
-            <button type="button">4</button>
-            <button type="button">5</button>
-            <button type="button">6</button>
-            <button type="button">-</button>
+            <button onclick="myFunction4()">4</button>
+            <button onclick="myFunction5()">5</button>
+            <button onclick="myFunction6()">6</button>
+            <button onclick="myFunctionmin()">-</button>
             <br>
-            <button type="button">7</button>
-            <button type="button">8</button>
-            <button type="button">9</button>
-            <button type="button">X</button>
+            <button onclick="myFunction7()">7</button>
+            <button onclick="myFunction8()">8</button>
+            <button onclick="myFunction9()">9</button>
+            <button onclick="myFunctionmul()">X</button>
             <br>
-            <button type="button">.</button>
-            <button type="button">0</button>
-            <button type="submit" style="width: 45%;">Submit</button>
+            <button onclick="myFunctiondot()">.</button>
+            <button onclick="myFunction0()">0</button>
+            <button onclick="myFunctionExecute()" style="width: 45%;">Submit</button>
         </div>
         
     </div>
