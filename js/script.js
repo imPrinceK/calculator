@@ -1,5 +1,5 @@
 let ans="";
-let check=""
+let check="";
 
 function addNum(a){
     ans = ans.concat(a);
