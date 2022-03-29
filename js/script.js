@@ -20,7 +20,7 @@ function addOpt(b){
 
 function del(){
     ans=" ";
-    document.getElementById("math").innerHTML = ans ;
+    document.getElementById("math").innerHTML = ans;
     document.getElementById("display").innerHTML = "";
 }
 
