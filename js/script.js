@@ -18,15 +18,18 @@ function addOpt(b){
     document.getElementById("math").innerHTML = ans;
 }
 
-function del(){
+function cle(){
     ans=" ";
     document.getElementById("math").innerHTML = ans;
     document.getElementById("display").innerHTML = "";
+    
 }
 
 function backspace(){
     ans=ans.slice(0, -1);
     document.getElementById("math").innerHTML = ans;
+    document.getElementById("display").innerHTML = "";
+
 }
 
 function Execute(){
