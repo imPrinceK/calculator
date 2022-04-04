@@ -44,5 +44,4 @@ function Execute(){
         document.getElementById("display").innerHTML = eval(ans);
         ans=eval(ans).toString();
     }
-    
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <title>calculator</title>
 </head>
@@ -17,9 +18,8 @@
         </div>
         <div class="buttons">
             <button onclick="cle()" >C</button>
-            <button onclick="backspace()"><img src="images/backspace.png" alt="bs"></button>
-            <button onclick="addOpt('%')">%</button>
             <button onclick="addOpt('/')">/</button>
+            <button onclick="backspace()" style="width: 45%;"><img src="images/backspace.png" alt="bs"></button>
             <br>
             <button onclick="addNum('1')">1</button>
             <button onclick="addNum('2')">2</button>
@@ -42,8 +42,6 @@
         </div>
         
     </div>
-
-
 
     <script src="js/script.js"></script>
 </body>
